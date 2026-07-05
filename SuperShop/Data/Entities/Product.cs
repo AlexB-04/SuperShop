@@ -28,5 +28,7 @@ namespace SuperShop.Data.Entities
 
         [DisplayFormat(DataFormatString = "{0:N2}", ApplyFormatInEditMode = false)]
         public int Stock { get; set; }
+
+        public User User { get; set; }
     }
 }
